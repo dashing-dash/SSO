@@ -33,6 +33,7 @@
 	
 		while (elems.hasMoreElements() && !found) {
 			String value = (String) elems.nextElement();
+			out.println(value);
 			if (value == "attributes" || value == "nameId") {
 				found = true;
 			}
